@@ -1,0 +1,23 @@
+
+body {
+	font-family: tahoma;
+	font-size: 11px;
+}
+h1 {
+	text-transform: uppercase;
+}
+strong {
+	color: black;
+}
+i {
+	color: red;
+}
+.mauthe1{
+	color: green;
+}
+u {
+	color: blue;
+}
+b {
+	color: red;
+}
