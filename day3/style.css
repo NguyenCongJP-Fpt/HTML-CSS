@@ -1,0 +1,63 @@
+fieldset {
+ width: 570px;
+ border-radius: 5px;
+ margin: 10px;
+}
+.form-group {
+ margin: 10px;
+}
+
+.form-group label:first-child {
+ width: 170px;
+ float: left;
+}
+
+div {
+	margin-bottom: 10px;
+}
+fieldset {
+ width: 570px;
+ border-radius: 5px;
+ margin: 10px;
+}
+
+input {
+ 	border-radius: 5px;
+ 	height: 20px;
+}
+
+textarea {
+	font-family: tahoma;
+ 	border-radius: 5px;
+ 	height: 70px;
+ 	width: 300px;
+}
+
+.normal-input {
+ 	width: 200px;
+ 	margin-left: 50px;
+}
+.normal-input1 {
+ 	width: 250px;
+ 	margin: 10px 0px 0px 120px;
+}
+.normal-input2 {
+ 	width: 250px;
+ 	margin: 10px 0px 0px 170px;
+}
+
+.normal-input3 {
+ 	width: 250px;
+ 	margin: 10px 0px 0px 149px;
+}
+
+.normal-input4 {
+ 	width: 250px;
+ 	margin: 10px 0px 0px 88px;
+}
+
+.long-input {
+ 	width: 300px;
+	margin: 10px 0px 0px 150px;
+ /*text-transform: capitalize;*/
+}

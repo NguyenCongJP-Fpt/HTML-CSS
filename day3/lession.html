@@ -1,0 +1,111 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>lession3 07-10 lab8</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<form action="https://youtube-api-challenger.appspot.com/member/register" method="post" id="form">
+
+	<fieldset class="form1">
+		<legend>Thông tin cơ bản</legend>
+		<div>
+			<label class="form-group">
+				Tên tài khoản
+				<input class="normal-input1" type="text" name="username" placeholder=" Tài khoản đăng nhập" required="bắt buộc phải nhập" minlength="7"</br>
+					
+			</label>
+		</div>
+		<div>
+			<label class="form-group">			
+				Email
+				<input class="normal-input2" type="email" name="email" placeholder=" Nhập email của bạn" required="bắt buộc phải nhập" minlength="7"></br>
+			</label>
+		</div>
+		<div>
+			<label class="form-group">
+				Mật khẩu
+				<input class="normal-input3" type="text" name="password" placeholder=" Nhập mật khẩu" required="bắt buộc phải nhập" minlength="7"></br>
+
+			</label>
+		</div>
+		<div>
+			<label class="form-group">
+				Xác nhận mật khẩu
+				<input class="normal-input4" type="text" name="password" placeholder=" Nhập lại mật khẩu" required minlength="7"></br>
+			
+			</label>
+		</div>
+	</fieldset>
+
+	<fieldset class="form2">
+		<legend>Thông tin chi tiết</legend>
+		<div>
+			<label class="form-group">
+				Họ và tên
+				<input class="long-input" type="text" name="fullName" placeholder=" Nhập họ và tên của bạn" minlength="7"></br>
+
+			</label>
+		</div>
+		<div>
+			<label class="form-group">
+				Ngày sinh
+				<input class="normal-input" type="date" name="birthDay"></br>
+			
+			</label>
+		</div>
+		<div>
+			<label class="form-group">
+				Giới tính
+				<input class="short-input" type="radio" name="gender" value="1" check>Nam
+				<span class="checkmark"></span>
+				<input class="short-input" type="radio" name="gender" value="0" check>Nữ
+				<span class="checkmark"></span>
+			</label></br>
+		</div>
+			
+		<div>
+			<label class=form-group>
+				Sở thích
+				<input class="short-input" type="checkbox" name="favourite">
+				<span class="checkmark2"></span>
+				Thể thao
+				<input class="short-input" type="checkbox" name="favourite">
+				<span class="checkmark2"></span>
+				Xem phim
+				<input class="short-input" type="checkbox" name="favourite">
+				<span class="checkmark2"></span>
+				Nghe nhạc
+				<input class="short-input" type="checkbox" name="favourite">
+				<span class="checkmark2"></span>
+				Đọc sách
+			</label></br>
+		</div>
+		<div>
+			<label class="form-group">
+				Ảnh đại diện
+				<input type="file" name="avatar" accept="image/*">
+			</label></br>
+		</div>
+		<div>
+			<label class="form-group">
+				Giới thiệu về bản thân
+				<textarea class="long-input"></textarea>
+			</label>
+		</div>
+	</fieldset>
+	
+		<label>
+			<input type="submit" name="submit" value="Đăng ký">
+		</label>			
+		<label>
+			<input type="reset" name="reset" value="Làm lại">
+		</label>
+		
+</form>
+
+</body>
+</html>

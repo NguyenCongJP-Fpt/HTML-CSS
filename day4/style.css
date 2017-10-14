@@ -1,0 +1,72 @@
+
+body {
+
+}
+
+header {
+	background-image: url(http://vietmoz.net/wp-content/legacy/news/2014_03/thuat-ngu-header.jpg);
+	height: 150px;
+	margin-bottom: 10px;
+	max-width: 1500px;
+}
+
+main :: after {
+	content: "";
+	clear: both;
+	display: inline-block;
+}
+
+nav {
+	float: left;
+	border: 1px solid red;
+	background-color: #EEE8AA;
+	width: 20%;
+	margin: 10px;
+	color: white;
+}
+
+.menu {
+	margin-bottom: 10px;
+	color: #f15922;
+	font-size: 18px;
+}
+
+article {
+	float: left;
+	border: 1px solid red;
+	/*background-color: #CC3300;*/
+	width: 55%;
+	margin: 10px;
+	height: 450px;
+	overflow: scroll;
+}
+
+span {
+	margin: 10px;
+	display: block;
+}
+
+.theDL {
+	width: 295px;
+	padding: 5px;
+	margin: 10px;
+	box-shadow: 5px 5px 5px;
+	float: left;
+	border-radius: 5px;
+	background-color: #79CDCD;
+}
+
+aside {
+	float: left;
+	border: 1px solid red;
+	background-image: url(https://www.amywilliams.us/wp-content/uploads/2014/12/dandellion.jpg);
+	width: 20%;
+	margin: 10px;
+	height: 500px;
+}
+footer {
+	clear: both;
+	height: 150px;
+	margin: 10px;
+	background-image: url(http://www.thammyvientramy.com/images/bg_footer.png);
+}
